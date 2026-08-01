@@ -1,7 +1,28 @@
 aid: pleasrdao
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pleasrdao.png
 name: PleasrDAO
-description: PleasrDAO is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PleasrDAO is a decentralized autonomous organization (DAO) formed in 2021 by a
+  collective of digital artists, NFT collectors, and DeFi investors. It is known
+  for acquiring and stewarding culturally significant digital and physical
+  assets, including the sole copy of Wu-Tang Clan's album "Once Upon a Time in
+  Shaolin," the original "Doge" meme image, and Edward Snowden's "Stay Free" NFT.
+  The organization pioneers fractionalized, on-chain ownership of art and
+  cultural artifacts. PleasrDAO operates as a community-governed collective
+  rather than a conventional software or API company; as of this enrichment pass
+  it publishes no public developer API, SDK, developer portal, or API
+  documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/pleasrdao/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +32,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- DAO
+- Web3
+- NFT
+- Digital Art
+- Blockchain
+- Collectibles
+- Decentralized Finance
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 apis: []
+common:
+- type: DomainSecurity
+  url: security/pleasrdao-domain-security.yml
+- type: Website
+  url: https://pleasr.org
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
